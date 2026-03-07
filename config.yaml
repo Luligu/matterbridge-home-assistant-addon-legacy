@@ -1,0 +1,35 @@
+name: Matterbridge
+version: 2026.3.1-legacy
+slug: matterbridge
+description: Matterbridge Home Assistant Application (Legacy)
+url: "https://github.com/Luligu/matterbridge-home-assistant-addon-legacy"
+changelog: "https://github.com/Luligu/matterbridge-home-assistant-addon-legacy/blob/main/CHANGELOG.md"
+
+arch:
+  - amd64
+  - aarch64
+
+image: luligu/matterbridge
+
+panel_title: Matterbridge
+panel_icon: mdi:bridge
+
+ingress: true
+ingress_port: 8283
+
+map:
+  - addons:rw
+
+host_network: true
+startup: services
+init: false
+
+schema:
+  frontend_bind: str
+  branch: list(main|dev)
+  force_update: bool
+
+options:
+  frontend_bind: 0.0.0.0
+  branch: main
+  force_update: true
