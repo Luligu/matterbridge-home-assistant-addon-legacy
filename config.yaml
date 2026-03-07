@@ -11,7 +11,7 @@ arch:
 
 image: luligu/matterbridge
 
-panel_title: Matterbridge
+panel_title: Matterbridge (Legacy)
 panel_icon: mdi:bridge
 
 ingress: true

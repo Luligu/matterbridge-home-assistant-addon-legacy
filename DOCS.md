@@ -43,7 +43,7 @@ When you start or restart the application, Matterbridge will reload all plugins 
 
 The Application can run on `arm64`, `amd64` and `armv7` with Node.Js 22.x.
 
-The image (luligu/matterbridge:s6-rc-legacy) is built on **Debian 12** (bookworm-slim) with **Node.js 22** and integrates the **s6-rc overlay** system.
+The image (luligu/matterbridge:s6-rc-legacy) is built on **Debian 11** (bullseye-slim) with **Node.js 22.22.1** and integrates the **s6-rc overlay** system.
 
 # Changelogs
 
