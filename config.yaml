@@ -8,6 +8,7 @@ changelog: "https://github.com/Luligu/matterbridge-home-assistant-addon-legacy/b
 arch:
   - amd64
   - aarch64
+  - armv7
 
 image: luligu/matterbridge
 
