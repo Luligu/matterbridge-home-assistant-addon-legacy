@@ -43,4 +43,4 @@ The Application can run on `arm64`, `amd64` and `armv7` with Node.Js 22.x.
 
 The image (luligu/matterbridge:s6-rc-legacy) is built on **Debian 11** (bullseye-slim) with **Node.js 22.22.1** and integrates the **s6-rc overlay** system.
 
-Visit the [Documentation page](https://raw.githubusercontent.com/Luligu/matterbridge-home-assistant-addon-legacy/main/DOCS.md) for more information.
+Visit the [Documentation page](https://github.com/Luligu/matterbridge-home-assistant-addon-legacy/blob/main/DOCS.md) for more information.
