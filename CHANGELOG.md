@@ -10,6 +10,7 @@ If you like this project and find it useful, please consider giving it a star on
 
 ## 2026.7.1 - 2026-07-03
 
+- Added a timeout of 60 seconds to allow a clean shutdown of the Matterbridge application.
 - Updated matterbridge to [3.9.3](https://matterbridge.io/CHANGELOG.html#393-2026-07-03).
 
 ## 2026.6.4 - 2026-06-26
