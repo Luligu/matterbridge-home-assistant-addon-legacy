@@ -1,5 +1,5 @@
 name: Matterbridge
-version: 2026.11.1-legacy
+version: 2026.11.2-legacy
 slug: matterbridge
 description: Matterbridge Home Assistant Application (Legacy)
 url: "https://github.com/Luligu/matterbridge-home-assistant-addon-legacy"
@@ -22,6 +22,8 @@ map:
   - type: local_apps
     read_only: false
     path: /addons
+  - type: app_config
+    read_only: false
 
 host_network: true
 startup: services
