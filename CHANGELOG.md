@@ -8,21 +8,24 @@ If you like this project and find it useful, please consider giving it a star on
 
 # Changelog
 
+> [!WARNING]
+> This release requires Supervisor **2026.07.1** or later. Update the Supervisor before updating the app: on an older Supervisor the app disappears from the store (the installed version keeps running with its data).
+
+## 2026.11.3 - 2026-11-20
+
+- Updated matterbridge to [3.11.4](https://matterbridge.io/CHANGELOG.html#3114-2026-11-20).
+- Updated s6-overlay from 3.2.2.0 to 3.2.3.2 and moved the `user` bundle to `user-bundles.d`.
+- Added a migration check at startup that logs the `/config`, `/addons` and `/data` mounts and the `/config` contents, to prepare for migrating Matterbridge data to `/config`.
+
 ## 2026.11.2 - 2026-11-13
 
 - Updated matterbridge to [3.11.3](https://matterbridge.io/CHANGELOG.html#3113-2026-11-13).
 - Added `app_config` map in `config.yaml` to prepare for migrating Matterbridge data to `/config`.
 
-> [!WARNING]
-> This release requires Supervisor **2026.07.1** or later. Update the Supervisor before updating the app: on an older Supervisor the app disappears from the store (the installed version keeps running with its data).
-
 ## 2026.11.1 - 2026-11-06
 
 - Updated matterbridge to [3.11.2](https://matterbridge.io/CHANGELOG.html#3112-2026-11-06).
 - Replaced the deprecated `addons` map type with `local_apps` mounted at the same path (`/addons`). This removes the Supervisor warning "uses legacy map type 'addons'". The Matterbridge data stays in `/addons/matterbridge`.
-
-> [!WARNING]
-> This release requires Supervisor **2026.07.1** or later. Update the Supervisor before updating the app: on an older Supervisor the app disappears from the store (the installed version keeps running with its data).
 
 ## 2026.10.5 - 2026-10-30
 
